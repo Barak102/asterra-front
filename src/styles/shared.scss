@@ -1,0 +1,17 @@
+@import './../styles/mixins';
+
+.field {
+  margin-top: 10px;
+
+  &.f-flex {
+    @include flex(center, center);
+  }
+}
+
+.form-container {
+    margin: 20px 0;
+}
+
+.form-button {
+  padding: 10px;
+}

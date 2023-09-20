@@ -1,0 +1,6 @@
+@import "./../../styles/mixins";
+
+.app-menu-bar {
+    @include flex(center,center);
+    width: 100%;
+}

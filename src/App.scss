@@ -1,0 +1,26 @@
+@import './styles/mixins';
+@import url(./styles/shared.scss);
+body { 
+  .App {
+    @include flex(center,start);
+    // display: flex;
+    // justify-content: center;
+    width: 100vw;
+
+    .navbar {
+      width: 100%;
+      position: fixed;
+      height: 30px;
+      background-color: #c0c0c0;
+    }
+
+    main {
+      width: 100%;
+      .router-container {
+        @include flex(center,center);
+        width: 100%;
+        margin-top: 100px;
+      }
+    }
+  }
+}
